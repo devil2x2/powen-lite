@@ -4,8 +4,6 @@
  * This file contains all custom functions used in the theme.
  * @package Powen
  */
-
-
 function powen_mod( $key , $default = false ) {
 	$powen_cus = get_theme_mod('powen_mod' );
 	return isset($powen_cus[$key]) && $powen_cus[$key] ? $powen_cus[$key] : $default;
@@ -38,5 +36,3 @@ function powen_options( $key1, $key2 = false ){
 	}
 
 }
-
-
